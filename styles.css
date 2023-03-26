@@ -129,7 +129,7 @@ h1{
         background: #131313;
     }
 
-    .navbat__menu.active {
+    .navbar__menu.active {
         background: #131313;
         top: 100%;
         opacity: 1;
