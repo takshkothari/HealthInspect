@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="template.css" rel="stylesheet">
+        <meta name="viewport" content="inital-scale=1.0, width=device-width">
+        <meta name="keywords" content="GFG, Hackathon, Solve For India, Healthcare, AI, Artificial Intelligence, ML, Machine Learning, Skin Diseases">
+        <title>Placeholder</title>
+    </head>
+
+    <body>
+        <div class="viewport-header">
+            <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+              <header class="mb-auto">
+              <h1 class="float-md-start mb-0">Placeholder</h1>
+              </header>
+              
+              
+
+              <main class="px-3">
+              <div class="tab">
+                <button class="tablinks" onclick="tab(event, 'H')">Home</button>
+                <button class="tablinks" onclick="tab(event, 'A')">About us</button>
+                <button class="tablinks" onclick="tab(event, 'P')">Products</button>
+              </div>
+            
+              
+              <div id="H" class="tabcontent">
+                <h3>Placeholder</h3>
+                <p>Brief description of what this site is</p>
+              </div>
+              
+              <div id="A" class="tabcontent">
+                <h3>Placeholder</h3>
+                <p>Self publicity</p>
+              </div>
+              
+              <div id="P" class="tabcontent">
+                <h3>Placeholder</h3>
+                <p>Skin infection, bone stuff if we get to that, links to medical stores(?)</p>
+              </div>
+            </main>
+
+
+
+
+
+
+              <script>
+              function tab(evt, func) {
+                var i, tabcontent, tablinks;
+              
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+                }
+              
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+              
+                document.getElementById(func).style.display = "block";
+                evt.currentTarget.className += " active";
+              }
+              </script>
+        
+    </body>
+
+</html>
