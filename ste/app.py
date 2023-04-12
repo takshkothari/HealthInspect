@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request,redirect, url_for
 import base64
 from google.cloud import aiplatform
 from google.cloud.aiplatform.gapic.schema import predict
@@ -38,8 +38,8 @@ def predict_image_classification_sample(
     project="738477523269",
     endpoint_id="5132357550737457152",
     location="us-central1",
-    filename="/Users/joshvirnarula/gfg_hackathon/misc/image.jpeg",
     api_endpoint= "us-central1-aiplatform.googleapis.com"):
+    filename=request.form["fileipt"]
     # The AI Platform services require regional API endpoints.
     client_options = {"api_endpoint": api_endpoint}
     # Initialize client that will be used to create and send requests.
@@ -72,19 +72,9 @@ def predict_image_classification_sample(
     predictions = response.predictions
     for prediction in predictions:
         print(" prediction:", dict(prediction))
-    return render_template('results.html')
+    pred=prediction[0];
+    return render_template('results.html',value=pred)
 print("starting..")
-
-# def predict():
-#     imagefile=request.files['imagefile']
-#     image_path="./images/" + imagefile.filename
-#     imagefile.save(image_path)
-
-
-#     print(image_path)
-#     image = cv2.imread(image_path)
-#     image=cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
-
 
 if __name__=='__main__':
     app.run(port=3000,debug=True)
