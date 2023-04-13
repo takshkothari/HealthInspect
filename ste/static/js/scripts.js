@@ -1,3 +1,4 @@
+const path="";
 function readURL(input) {
     if (input.files && input.files[0]) {                      
       var inputFileData = input.files[0];                     
@@ -20,7 +21,6 @@ function readURL(input) {
     $('.file-upload-placeholder').show();                     
     $('.file-upload-preview').hide();                         
   }
-  
   
   $('.file-upload-placeholder').bind('dragover', function () {
     $('.file-upload-placeholder').addClass('image-dropping');

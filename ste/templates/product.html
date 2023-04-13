@@ -20,7 +20,7 @@
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-success py-3 fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-success py-3">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">HealthInspect</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -34,7 +34,6 @@
                     </div>
                 </div>
             </nav>
-            <div class="main-2">
             <!-- Projects Section-->
             <section class="py-5">
                 <div class="container px-5 mb-5">
@@ -46,10 +45,11 @@
                             <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Image</button>
+                                <form action="/results.html" method="post" enctype="multipart/form-data">
                                 <div class="file-upload-placeholder">
-                                    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                                    <input class="file-upload-input" type='file' name="fileipt" onchange="readURL(this);" accept="image/*" />
                                     <div class="drag-text">
-                                        <h3>or<br>drag and drop a file</h3>
+                                        <h3>or, drag and drop a file</h3>
                                     </div>
                                 </div>
                                 <div class="file-upload-preview">
@@ -57,7 +57,11 @@
                                     <div class="file-upload-remove">
                                         <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
                                     </div>
+                                    <div class="file-upload-submit">
+                                        <input type="submit" id="submit-btn" class="submit-image" value="submit">Submit <span class="image-title">Uploaded Image</span></button>
+                                    </div>
                                 </div>
+                            </form>
                             </div>
                         </div>
                     </div>
@@ -72,7 +76,6 @@
                     </div>
                 </div>
             </section>
-            </div>
         </main>
         
         <!-- Bootstrap core JS-->
