@@ -36,7 +36,7 @@ def hellwo_world():
 @app.route('/results.html',methods=['POST'])
 def predict_image_classification_sample(
     project="738477523269",
-    endpoint_id="5132357550737457152",
+    endpoint_id="9077334902453567488",
     location="us-central1",
     api_endpoint= "us-central1-aiplatform.googleapis.com"):
     filename=request.files["fileipt"].read()
