@@ -1,74 +1,190 @@
-Disease,Output,Remedies
-Acne_and_Rosacea,You possibly have Rosacea,"Possible Remedies are
+Disease,Output,Causes,Symptoms,Remedies
+Acne_and_Rosacea,You possibly have Rosacea,"No direct cause has been found, but research has pointed towards the most probable cause being that it is hereditary. A few triggers which make it worse are:
+-Sunlight
+-Stress
+-Hot or Spicy food or drinks
+-Alcohol and Caffeine","Symptoms are:
+-Facial redness
+-Flushing
+-Burning sensation
+-Dryness and irritation in the eye","Possible Remedies are
 Apply to skin: Azelaic acid, Metronidazole
 Medicines to take: Doxycycline, Minocycline, Erythromycin"
-Actinic_Keratosis_Basal_Cell_Carcinoma_and_other_Malignant_Lesions,You possibly have Actinic Keratosis,"Possible Remedies are 
+Actinic_Keratosis_Basal_Cell_Carcinoma_and_other_Malignant_Lesions,You possibly have Actinic Keratosis,"Causes are:
+-Exposure to chemicals or radiation
+-Weak Immune System
+-Heredity","Symptoms are:
+-Rough, scaly or crusty patches of skin
+-Slight bumps on skin
+-Colour variations -pink or brown
+-Itching, burning, bleeding or oozing","Possible Remedies are 
 Apply to skin: 5-fluorouracil(5-FU) cream, Imiquimod"
-Atopic_Dermatitis,You possibly have Atopic Dermatitis,"Possible Remedies are
+Atopic_Dermatitis,You possibly have Atopic Dermatitis,"Causes are:
+-Allergen exposure or food allergies
+-Reaction of skin to certain materials
+-Hormonal changes","Symptoms are:
+-Dry, itchy and scaly skin
+-Redness and inflammation
+-Rough and thick patches of skin","Possible Remedies are
 Moisturizing skin regularly 
 Apply to skin: Corticosteroids like Prednisone, Hydrocortisone
 Medicines to take: Antihistamines like Cetirizine, Diphenhydramine"
-Bullous_Disease,You possibly have Bullous Disease,"Possible Remedies are 
+Bullous_Disease,You possibly have Bullous Disease,"Causes are:
+-Autoimmune disorders
+-Infections
+-Reaction to medication
+-Genetic factors","Symptoms are:
+-Fluid blisters on skin
+-Redness and inflammation
+-Open sores, thickened, scaly or crusty skin","Possible Remedies are 
 Apply to skin: Corticosteroids like Prednisone, Hydrocortisone
 Medicines to take: Immunosuppressants like Azathioprine, Methotrexate"
-Cellulitis_Impetigo_and_other_Bacterial_Infections,You possibly have Cellulitis Impetigo,"Possible Remedies are 
+Cellulitis_Impetigo_and_other_Bacterial_Infections,You possibly have Cellulitis Impetigo,"Causes are:
+-Bacterial infection
+-Contact with affected individuals
+-Poor hygiene","Symptoms are:
+-Redness and inflammation with blisters
+-Itching and burning, rashes too","Possible Remedies are 
 Apply to skin: Mupriocin, Retapamulin
 Medicines to take: Usually penicillin
 Since these are antibiotics, it is best adviced to go to a healthcare professional"
-Eczema,You possibly have Eczema,"Possible Remedies are 
+Eczema,You possibly have Eczema,"Causes are:
+-Allergen exposure or food allergies
+-Reaction of skin to certain materials
+-Hormonal changes","Symptoms are:
+-Dry, itchy and scaly skin
+-Redness and inflammation
+-Rough and thick patches of skin","Possible Remedies are 
 Apply to skin: eczema friendly moisturisers, petroleum jelly, relief creams
 Medicines to take: "
-Exanthems_and_Drug_Eruptions,You possibly have Exanthematous Drug Eruptions,"Possible Remedies are 
+Exanthems_and_Drug_Eruptions,You possibly have Exanthematous Drug Eruptions,"Causes are:
+-Allergic reaction to medication, usually antibiotics or anticonvulsants","Symptoms are:
+-Widespread rash
+-Fever and fatigue","Possible Remedies are 
 Discontinue using the drug causing the eruptions
 Apply to skin: Cold Compress, Moisturizers, Corticosteroids like Prednisone, Hydrocortisone
 Medicines to take: Ibuprofen, Paracetamol"
-Hair_Loss_Alopecia_and_other_Hair_Diseases,You possibly have Hair Loss Alopecia,"Possible Remedies are 
+Hair_Loss_Alopecia_and_other_Hair_Diseases,You possibly have Alopecia,"Causes are:
+-Autoimmune or hormonal disorders
+-Genetics
+-Side effect to medication","Symptoms are:
+-Hair loss
+-Change in nail appearance","Possible Remedies are 
 Apply to skin: Minoxidil(scalp), Corticosteroids like Prednisone, Hydrocortisone
 Medicines to take, only for males: Finasteride"
-Herpes_HPV_and_other_STDs,You possibly have Herpes,"Possible Remedies are
+Herpes_HPV_and_other_STDs,You possibly have Herpes,"Causes are:
+-Sexual contact with afflicted individual
+-Stress, illness or fever can trigger it","Symptoms are:
+-Small blisters
+-Pain during urine discharge
+-Itching and burning","Possible Remedies are
 Apply to skin: Antiviral creams or ointments
 Medicines to take: Acyclovir, Famciclovir, Valacyclovir"
-Light_Diseases_and_Disorders_of_Pigmentation,You possibly have a Pigmentation Disorder,"Possible Remedies are 
+Light_Diseases_and_Disorders_of_Pigmentation,You possibly have a Pigmentation Disorder,"Causes are:
+-Genetics or underlying medical conditions
+-Sun exposure
+-Hormonal changes
+-Side effect of medications","Symptoms are:
+-Changes in skin colour
+-Spots or patches
+-Uneven skin tone","Possible Remedies are 
 Apply to skin: Corticosteroids, Hydroquinone, Retinoids
 Chemical peels can be used to exfoliate the top layer and reduce pigmentation"
-Lupus_and_other_Connective_Tissue_diseases,You possibly have Lupus,"Possible Remedies are
+Lupus_and_other_Connective_Tissue_diseases,You possibly have Lupus,"Causes are:
+-Genetics
+-Hormonal changes","Symptoms are:
+-Fever, fatigue and weakness
+-Rashes and inflammation
+-Nausea and vomiting","Possible Remedies are
 Apply to skin: Tacrolimus ointment
 Medicine to take:
 -Anti-inflammatory drugs like Aspirin, Ibuprofen
 -Corticosteroids like Prednisone, Hydrocortisone
 -Immunosuppressants like Azathioprine, Cyclophosphamide
 -Biologics"
-Melanoma_Skin_Cancer_Nevi_and_Moles,You possibly have Melanoma,"Potentially skin cancer, kindly go to the nearest dermatologist as soon as possible"
-Nail_Fungus_and_other_Nail_Disease,You possibly have Nail Fungus,"Possible Remedies are 
+Melanoma_Skin_Cancer_Nevi_and_Moles,You possibly have Melanoma,"Symptoms are:
+-New unusual growth on skin
+-Change in appearance of an existing mole
+-A sore that does not heal","Exact cause is not known, but exposure to radiation is a risk factor","Potentially skin cancer, kindly go to the nearest dermatologist as soon as possible"
+Nail_Fungus_and_other_Nail_Disease,You possibly have Nail Fungus,"Causes are:
+-Contact with afflicted individuals
+-Poor hygiene","Symptoms are:
+-Thickened, discoloured or brittle nails
+-Yellow, brown or white discolouration
+-Foul odour emanating from nail
+-Pain and discomfort","Possible Remedies are 
 Apply to skin: Ciclopirox, Amorolfine
 Medicines to take: Itraconazole, Terbinafine"
-Poison_Ivy_and_other_Contact_Dermatitis,You possibly have Contact Dermatitis,"Possible Remedies are 
+Poison_Ivy_and_other_Contact_Dermatitis,You possibly have Contact Dermatitis,"Causes are:
+-Contact with irritant
+-Contact with allergen","Symptoms are:
+-Itching, dryness, flaky skin
+-Redness, swelling and burning sensation","Possible Remedies are 
 Apply to skin: Cold Compresses, Calamine
 Medicines to take: Antihistamines like Cetirizine, Diphenhydramine"
-Psoriasis_Lichen_Planus_and_related_diseases,You possibly have Psoriasis,"Possible Remedies are
+Psoriasis_Lichen_Planus_and_related_diseases,You possibly have Psoriasis,"Causes are:
+-Overactive immune system
+-Genetics","Symptoms are:
+-Thick red patches of skin with silvery scales
+-Itching and burning
+-Dry, cracked skin
+-Swollen and stiff joints","Possible Remedies are
 Apply to skin: Corticosteroids like Prednisone, Hydrocortisone, Retinoids like Tretinoin, Tazarotene
 Medicines to take: Cyclosporine"
-Scabies_Lyme_Disease_and_other_Infestations_and_Bites,You possibly have Scabies or Lyme Disease,"Possible Remedies are
+Scabies_Lyme_Disease_and_other_Infestations_and_Bites,You possibly have Scabies or Lyme Disease,"Causes are:
+-Contact with afflicted individual","Symptoms are:
+-Itching and rashes","Possible Remedies are
 If Scabies
 Apply to skin: Permethrin cream
 Medicines to take: Ivermectin
 If Lyme Disease
 Medicines to take: Doxycycline, Amoxicillin"
-Seborrheic_Keratoses_and_other_Benign_Tumors,You possibly have Seborrheic Keratoses,"It is usually harmless and does not require treatment, but contact dermatologist if causing troubles"
-Systemic_Disease,You possibly have a Systemic Disease,"Variety of Diseases, go to the nearest dermatologist to find out which one it actually is"
-Tinea_Ringworm_Candidiasis_and_other_Fungal_Infections,You possibly have a Fungal Infection,"Possible Remedies are
+Seborrheic_Keratoses_and_other_Benign_Tumors,You possibly have Seborrheic Keratoses,"Causes are:
+-Genetics
+-Exposure to sun
+-Hornmonal Changes","Symptoms are:
+-Wart-like growths
+-May cause itching and irritation","It is usually harmless and does not require treatment, but contact dermatologist if causing troubles"
+Systemic_Disease,You possibly have a Systemic Disease,Causes vary based on disease,Symptoms vary from disease to disease,"Variety of Diseases, go to the nearest dermatologist to find out which one it actually is"
+Tinea_Ringworm_Candidiasis_and_other_Fungal_Infections,You possibly have a Fungal Infection,"Causes are:
+-Weakened immune system
+-Exposure to excessive fungi","Symptoms are:
+-Itching, burning and cracking
+-Discolouration","Possible Remedies are
 Apply to skin: Clotrimazole, Miconazole, Ketoconazole
 Medicines to take: Terbinafine, Fluconazole
 Antifungal products should be used as well"
-Urticaria_Hives,You possibly have Hives,"Possible Remedies are
+Urticaria_Hives,You possibly have Hives,"Causes are:
+-Allergic reaction to foods, medications or other substances
+-Temperature changes
+-Sunlight exposure","Symptoms are:
+-Itchy red bumps on skin
+-Burning or stinging sensation
+-Warm skin","Possible Remedies are
 Apply to skin: Calamine
 Medicines to take: Antihistamines like Cetirizine, Diphenhydramine"
-Vascular_Tumors,You possibly have a Vascular Tumor,"Possible Remedies here depend on the type, size, location and symptoms
+Vascular_Tumors,You possibly have a Vascular Tumor,"Causes are:
+-Genetic mutations
+-Abnormal blood vessel development
+-Exposure to certain chemicals or radiation","Symptoms are:
+-Swelling or lumps in affected area
+-Redness or discolouration in affected area
+-Bleeding or ulceration","Possible Remedies here depend on the type, size, location and symptoms
 Visit the nearest dermatologist to figure out the specific treatment you need"
-Vasculitis,You possibly have Vasculitis,"Possible Remedies are
+Vasculitis,You possibly have Vasculitis,Probable cause is abnormal immune system response,"Symptoms are:
+-Fever and fatigue
+-Weight loss
+-Rashes
+-Vision change
+-Abdominal pain","Possible Remedies are
 Medicines to take: 
 -Colchicine, Corticosteroids like Prednisone, Hydrocortisone
 -Immunosuppressants like Azathioprine, Cyclophosphamide
 -Biologic agents like rituximab, tocilizumab"
-Warts_Molluscum_and_other_Viral_Infections,You possibly have Warts,"Possible Remedies are
+Warts_Molluscum_and_other_Viral_Infections,You possibly have Warts,"Causes are:
+-Infection with human papilloma virus(HPV)
+-Contact spreading","Symptoms are:
+-Small, fleshy, grainy bumps
+-Rough to touch
+-Black dots on skin","Possible Remedies are
 Apply to skin: Salicyclic acid, Cantharidin, Imiquimod"
