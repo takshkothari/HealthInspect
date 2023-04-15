@@ -204,10 +204,10 @@ function lookupDiseaseInfo(diseaseName) {
     if (diseaseName in diseases) {
         const disease = diseases[diseaseName];
         // return the symptoms, causes, and treatments as an array
-        nameDiv.textContent = 'Name: ' + disease.name;
+        nameDiv.innerHTML = 'Name: ' + disease.name;
         symptomsDiv.innerHTML = 'Symptoms: ' + disease.symptoms;
-        causesDiv.textContent = 'Causes: ' + disease.causes;
-        treatmentsDiv.textContent = 'Treatments: ' + disease.treatments;
+        causesDiv.innerHTML = 'Causes: ' + disease.causes;
+        treatmentsDiv.innerHTML = 'Treatments: ' + disease.treatments;
     }
 }
 
