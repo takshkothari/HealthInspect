@@ -963,8 +963,8 @@ progress {
 
 /* PREVIEW */
 .file-upload-image {
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 500px;
+  max-width: 500px;
   margin: auto;
   padding: 20px;
 }
@@ -3056,10 +3056,10 @@ textarea.form-control-lg {
 
 .btn-light {
   --bs-btn-color: #000;
-  --bs-btn-bg: #f8f9fa;
+  --bs-btn-bg: #cacaca;
   --bs-btn-border-color: #f8f9fa;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #d3d4d5;
+  --bs-btn-hover-bg: #737373;
   --bs-btn-hover-border-color: #c6c7c8;
   --bs-btn-focus-shadow-rgb: 211, 212, 213;
   --bs-btn-active-color: #000;
@@ -11680,6 +11680,12 @@ html {
 
 .text-gradient {
   background: -webkit-linear-gradient(315deg, #C9EFC7 0%, #50A060 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-2 {
+  background: -webkit-linear-gradient(230deg, #fcef00 0%, #fc0303 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
