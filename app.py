@@ -84,7 +84,7 @@ def predict_image_classification_sample(
     # sort the list of dictionaries by confidence in descending order
     sorted_pred = sorted(pred_list, key=lambda x: x['confidence'], reverse=True)
     d=sorted_pred[0]['displayName']
-    c=sorted_pred[0]['confidence']
+    c=round(sorted_pred[0]['confidence'],4)
     return render_template('results.html',disease=d,confidence=c)
 print("starting..")
 
