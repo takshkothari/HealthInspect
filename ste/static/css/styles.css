@@ -3834,6 +3834,14 @@ textarea.form-control-lg {
   display: block;
 }
 
+.main{
+  margin-top: 100px;
+}
+
+.main-2{
+  margin-top: 50px;
+}
+
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
