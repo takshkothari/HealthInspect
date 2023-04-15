@@ -1,5 +1,3 @@
-<!-- <h1>you have: {{value}}</h1> -->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -19,7 +17,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="/static/css/styles.css" rel="stylesheet" />
     </head>
-    <body class="d-flex flex-column">
+    <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-success py-3">
@@ -45,29 +43,49 @@
                     </div>
                     <!--USE THESE DIVS FOR RESULTS-->
                     <section>
-                        <!-- Skillset Card-->
                         <div class="card shadow border-0 rounded-4 mb-5">
                             <div class="card-body p-5">
-                                <!-- Professional skills list-->
-                                <div class="mb-5">
-                                    <div class="d-flex align-items-center mb-4">
-                                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Technologies employed</span></h3>
+                                <div class="mb-5 text-warning">
+                                    <div class="mb-4">
+                                        <p><h3 class="fw-bolder mb-0" id="name"></h3><br></p>
+                                        <p><h3 class="fw-bold mb-0" id="confidence"> Confidence Rating: {{100 * confidence}}%</h3></p>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="card-body p-5">
+                                <div class="mb-5 text-danger">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <h3 class="fw-bolder mb-0"><span class="d-inline" id="symptoms"></span></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="card-body p-5">
+                                <div class="mb-5 text-info">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <h3 class="fw-bolder mb-0"><span class="d-inline" id="causes"></span></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="card-body p-5">
+                                <div class="mb-5 text-primary">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <h3 class="fw-bolder mb-0"><span class="d-inline" id="treatments"></span></h3>
+                                    </div>
+                                </div>
+                                <div class="fw-semibold text-danger"><h2>Always consult a doctor before starting any medication</h2></div>
+                            </div>
+                        </div>
 
-
-
-
-
-
-
-                    <h1 id="name">test</h1>
-                    <h1 id="confidence">Confidence : {{confidence}}</h1>
-                    <h1 id="symptoms">test</h1>
-                    <h1 id="causes">test</h1>
-                    <h1 id="treatments">test</h1>
+                    </section> 
 
                     <!--dont use this div-->
                     <h1 style="display:none;" id="disease">{{disease}}</h1>
@@ -229,4 +247,8 @@ function lookupDiseaseInfo(diseaseName) {
     }
 }
     </script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
