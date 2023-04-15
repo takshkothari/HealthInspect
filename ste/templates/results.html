@@ -57,8 +57,6 @@
                             setInterval(lookupDiseaseInfo(dname), 1);
                         })
                     </script>
-                    
-
                 </div>
             </section>
         </div>
@@ -67,132 +65,130 @@
         const diseases = {
             Acne_and_Rosacea: {
                 name:'Acne or Rosacea',
-                symptoms:'<br>-Facial redness <br>-Flushing \n-Burning sensation \n-Dryness and irritation in the eye', 
-                causes:'No direct cause has been found, but research has pointed towards the most probable cause being that it is hereditary. A few triggers which make it worse are:\n \
-                -Sunlight \n-Stress \n-Hot or Spicy food or drinks \n-Alcohol and Caffeine\n', 
-                treatments:'\nApply to skin: Azelaic acid, Metronidazole \nMedicines to take: Doxycycline, Minocycline, Erythromycin' 
+                symptoms:'<br>-Facial redness <br>-Flushing <br>-Burning sensation <br>-Dryness and irritation in the eye', 
+                causes:'No direct cause has been found, but research has pointed towards the most probable cause being that it is hereditary. A few triggers which make it worse are:<br>-Sunlight <br>-Stress <br>-Hot or Spicy food or drinks <br>-Alcohol and Caffeine<br>', 
+                treatments:'<br>Apply to skin: Azelaic acid, Metronidazole <br>Medicines to take: Doxycycline, Minocycline, Erythromycin' 
             },
             Actinic_Keratosis_Basal_Cell_Carcinoma_and_other_Malignant_Lesions: {
                 name:'Actinic Keratosis or other Malignant Lesions',
-                symptoms:'\n-Rough, scaly or crusty patches of skin \n-Slight bumps on skin \n-Colour variations \n-pink or brown \n-Itching, burning, bleeding or oozing', 
-                causes:'\n-Exposure to chemicals or radiation \n-Weak Immune System \n-Heredity', 
-                treatments:'\nApply to skin: 5-fluorouracil(5-FU) cream, Imiquimod' 
+                symptoms:'<br>-Rough, scaly or crusty patches of skin <br>-Slight bumps on skin <br>-Colour variations <br>-pink or brown <br>-Itching, burning, bleeding or oozing', 
+                causes:'<br>-Exposure to chemicals or radiation <br>-Weak Immune System <br>-Heredity', 
+                treatments:'<br>Apply to skin: 5-fluorouracil(5-FU) cream, Imiquimod' 
             },
             Atopic_Dermatitis: {
                 name:'Atopic Dermatitis',
-                symptoms:'Symptoms are: \n-Dry, itchy and scaly skin \n-Redness and inflammation \n-Rough and thick patches of skin', 
-                causes:'\n-Allergen exposure or food allergies \n-Reaction of skin to certain materials \n-Hormonal changes', 
-                treatments:'\nMoisturizing skin regularly \nApply to skin: Corticosteroids like Prednisone, Hydrocortisone \nMedicines to take: Antihistamines like Cetirizine, Diphenhydramine' 
+                symptoms:'<br>-Dry, itchy and scaly skin <br>-Redness and inflammation <br>-Rough and thick patches of skin', 
+                causes:'<br>-Allergen exposure or food allergies <br>-Reaction of skin to certain materials <br>-Hormonal changes', 
+                treatments:'<br>Moisturizing skin regularly <br>Apply to skin: Corticosteroids like Prednisone, Hydrocortisone <br>Medicines to take: Antihistamines like Cetirizine, Diphenhydramine' 
             },
             Bullous_Disease: {
                 name:'Bullous Disease',
-                symptoms:'\n-Fluid blisters on skin \n-Redness and inflammation \n-Open sores, thickened, scaly or crusty skin', 
-                causes:'\n-Autoimmune disorders \n-Infections \n-Reaction to medication \n-Genetic factors', 
-                treatments:'\nApply to skin: Corticosteroids like Prednisone, Hydrocortisone \nMedicines to take: Immunosuppressants like Azathioprine, Methotrexate' 
+                symptoms:'<br>-Fluid blisters on skin <br>-Redness and inflammation <br>-Open sores, thickened, scaly or crusty skin', 
+                causes:'<br>-Autoimmune disorders <br>-Infections <br>-Reaction to medication <br>-Genetic factors', 
+                treatments:'<br>Apply to skin: Corticosteroids like Prednisone, Hydrocortisone <br>Medicines to take: Immunosuppressants like Azathioprine, Methotrexate' 
             },
             Eczema: {
                 name:'Eczema',
-                symptoms:'\n-Dry, itchy and scaly skin \n-Redness and inflammation \n-Rough and thick patches of skin', 
-                causes:'\n-Allergen exposure or food allergies \n-Reaction of skin to certain materials \n-Hormonal changes', 
-                treatments:'\nApply to skin: Eczema friendly moisturisers, petroleum jelly, relief creams' 
+                symptoms:'<br>-Dry, itchy and scaly skin <br>-Redness and inflammation <br>-Rough and thick patches of skin', 
+                causes:'<br>-Allergen exposure or food allergies <br>-Reaction of skin to certain materials <br>-Hormonal changes', 
+                treatments:'<br>Apply to skin: Eczema friendly moisturisers, petroleum jelly, relief creams' 
             },
             Hair_Loss_Alopecia_and_other_Hair_Diseases: {
                 name:'Hair Loss Alopecia or other Hair Diseases',
-                symptoms:'\n-Hair loss \n-Change in nail appearance	', 
-                causes:'\n-Autoimmune or hormonal disorders \n-Genetics \n-Side effect to medication', 
-                treatments:'\nApply to skin: Minoxidil(scalp), Corticosteroids like Prednisone, Hydrocortisone \nMedicines to take, only for males: Finasteride' 
+                symptoms:'<br>-Hair loss <br>-Change in nail appearance	', 
+                causes:'<br>-Autoimmune or hormonal disorders <br>-Genetics <br>-Side effect to medication', 
+                treatments:'<br>Apply to skin: Minoxidil(scalp), Corticosteroids like Prednisone, Hydrocortisone <br>Medicines to take, only for males: Finasteride' 
             },
             Herpes_HPV_and_other_STDs: {
                 name:'Herpes or other STDs',
-                symptoms:'\n-Small blisters \n-Pain during urine discharge \n-Itching and burning', 
-                causes:'\n-Sexual contact with afflicted individual \n-Stress, illness or fever can trigger it', 
-                treatments:'\nApply to skin: Antiviral creams or ointments \nMedicines to take: Acyclovir, Famciclovir, Valacyclovir' 
+                symptoms:'<br>-Small blisters <br>-Pain during urine discharge <br>-Itching and burning', 
+                causes:'<br>-Sexual contact with afflicted individual <br>-Stress, illness or fever can trigger it', 
+                treatments:'<br>Apply to skin: Antiviral creams or ointments <br>Medicines to take: Acyclovir, Famciclovir, Valacyclovir' 
             },
             Light_Diseases_and_Disorders_of_Pigmentation: {
                 name:'Light Diseases or Disorders of Pigmentation',
-                symptoms:'\n-Changes in skin colour \n-Spots or patches \n-Uneven skin tone', 
-                causes:'\n-Genetics or underlying medical conditions \n-Sun exposure \n-Hormonal changes \n-Side effect of medications', 
-                treatments:'\nApply to skin: Corticosteroids, Hydroquinone, Retinoids \nChemical peels can be used to exfoliate the top layer and reduce pigmentation' 
+                symptoms:'<br>-Changes in skin colour <br>-Spots or patches <br>-Uneven skin tone', 
+                causes:'<br>-Genetics or underlying medical conditions <br>-Sun exposure <br>-Hormonal changes <br>-Side effect of medications', 
+                treatments:'<br>Apply to skin: Corticosteroids, Hydroquinone, Retinoids <br>Chemical peels can be used to exfoliate the top layer and reduce pigmentation' 
             },
             Lupus_and_other_Connective_Tissue_diseases: {
                 name:'Lupus or other Connective Tissue diseases',
-                symptoms:'\n-Fever, fatigue and weakness \n-Rashes and inflammation \n-Nausea and vomiting', 
-                causes:'\n-Genetics \n-Hormonal changes', 
-                treatments:'\nApply to skin: Tacrolimus ointment \nMedicine to take: \n\t-Anti-inflammatory drugs like Aspirin, Ibuprofen \n\t-Corticosteroids like Prednisone, Hydrocortisone \n\t-Immunosuppressants like Azathioprine, Cyclophosphamide \n\t-Biologics' 
+                symptoms:'<br>-Fever, fatigue and weakness <br>-Rashes and inflammation <br>-Nausea and vomiting', 
+                causes:'<br>-Genetics <br>-Hormonal changes', 
+                treatments:'<br>Apply to skin: Tacrolimus ointment <br>Medicine to take: <br>\t-Anti-inflammatory drugs like Aspirin, Ibuprofen <br>\t-Corticosteroids like Prednisone, Hydrocortisone <br>\t-Immunosuppressants like Azathioprine, Cyclophosphamide <br>\t-Biologics' 
             },
             Melanoma_Skin_Cancer_Nevi_and_Moles: {
                 name:'Melanoma, Nevi or Moles',
-                symptoms:'\n-New unusual growth on skin \n-Change in appearance of an existing mole \n-A sore that does not heal', 
-                causes:'\nExact cause is not known, but exposure to radiation is a risk factor', 
-                treatments:'\nPotentially skin cancer, kindly go to the nearest dermatologist as soon as possible'  
+                symptoms:'<br>-New unusual growth on skin <br>-Change in appearance of an existing mole <br>-A sore that does not heal', 
+                causes:'<br>Exact cause is not known, but exposure to radiation is a risk factor', 
+                treatments:'<br>Potentially skin cancer, kindly go to the nearest dermatologist as soon as possible'  
             },
             Nail_Fungus_and_other_Nail_Disease: {
                 name:'Nail Fungus or other Nail Disease',
-                symptoms:'\n-Thickened, discoloured or brittle nails \n-Yellow, brown or white discolouration \n-Foul odour emanating from nail \n-Pain and discomfort	', 
-                causes:'\n-Contact with afflicted individuals \n-Poor hygiene', 
-                treatments:'\nApply to skin: Ciclopirox, Amorolfine \nMedicines to take: Itraconazole, Terbinafine' 
+                symptoms:'<br>-Thickened, discoloured or brittle nails <br>-Yellow, brown or white discolouration <br>-Foul odour emanating from nail <br>-Pain and discomfort	', 
+                causes:'<br>-Contact with afflicted individuals <br>-Poor hygiene', 
+                treatments:'<br>Apply to skin: Ciclopirox, Amorolfine <br>Medicines to take: Itraconazole, Terbinafine' 
             },
             Poison_Ivy_and_other_Contact_Dermatitis: {
                 name:'Contact Dermatitis',
-                symptoms:'\n', 
-                causes:'\n', 
-                treatments:'\n'  
+                symptoms:'<br>', 
+                causes:'<br>', 
+                treatments:'<br>'  
             },
             Psoriasis_Lichen_Planus_and_related_diseases: {
                 name:'Psoriasis Lichen Planus or related diseases',
-                symptoms:'\n-Itching, dryness, flaky skin \n-Redness, swelling and burning sensation', 
-                causes:'\n-Contact with irritant \n-Contact with allergen', 
-                treatments:'\nApply to skin: Cold Compresses, Calamine \nMedicines to take: Antihistamines like Cetirizine, Diphenhydramine'  
+                symptoms:'<br>-Itching, dryness, flaky skin <br>-Redness, swelling and burning sensation', 
+                causes:'<br>-Contact with irritant <br>-Contact with allergen', 
+                treatments:'<br>Apply to skin: Cold Compresses, Calamine <br>Medicines to take: Antihistamines like Cetirizine, Diphenhydramine'  
             },
             Scabies_Lyme_Disease_and_other_Infestations_and_Bites: {
                 name:'Scabies Lyme Disease or other Infestations or Bites',
-                symptoms:'\n-Itching and rashes', 
-                causes:'\n-Contact with afflicted individual', 
-                treatments:'\nIf Scabies \nApply to skin: Permethrin cream \nMedicines to take: Ivermectin \nIf Lyme Disease \nMedicines to take: Doxycycline, Amoxicillin' 
+                symptoms:'<br>-Itching and rashes', 
+                causes:'<br>-Contact with afflicted individual', 
+                treatments:'<br>If Scabies <br>Apply to skin: Permethrin cream <br>Medicines to take: Ivermectin <br>If Lyme Disease <br>Medicines to take: Doxycycline, Amoxicillin' 
             },
             Seborrheic_Keratoses_and_other_Benign_Tumors: {
                 name:'Seborrheic Keratoses or other Benign Tumors',
-                symptoms:'\n-Wart-like growths \n-May cause itching and irritation', 
-                causes:'\n-Genetics \n-Exposure to sun \n-Hornmonal Changes', 
-                treatments:'\nIt is usually harmless and does not require treatment, but contact dermatologist if causing troubles'  
+                symptoms:'<br>-Wart-like growths <br>-May cause itching and irritation', 
+                causes:'<br>-Genetics <br>-Exposure to sun <br>-Hornmonal Changes', 
+                treatments:'<br>It is usually harmless and does not require treatment, but contact dermatologist if causing troubles'  
             },
             Systemic_Disease: {
                 name:'Systemic Disease',
-                symptoms:'\nSymptoms vary from disease to disease', 
-                causes:'\nCauses vary based on disease', 
-                treatments:'\nVariety of Diseases, go to the nearest dermatologist for an expert opinion'  
+                symptoms:'<br>Symptoms vary from disease to disease', 
+                causes:'<br>Causes vary based on disease', 
+                treatments:'<br>Variety of Diseases, go to the nearest dermatologist for an expert opinion'  
             },
             Tinea_Ringworm_Candidiasis_and_other_Fungal_Infections: {
                 name:'Tinea Ringworm Coridiasis or other Fungal Infections',
-                symptoms:'\n-Itching, burning and cracking \n-Discolouration', 
-                causes:'\n-Weakened immune system \n-Exposure to excessive fungi', 
-                treatments:'\nApply to skin: Clotrimazole, Miconazole, Ketoconazole \nMedicines to take: \n\t-Terbinafine, Fluconazole \n\t-Antifungal products should be used as well \nDo visit a dermatologist for an expert opinion'  
+                symptoms:'<br>-Itching, burning and cracking <br>-Discolouration', 
+                causes:'<br>-Weakened immune system <br>-Exposure to excessive fungi', 
+                treatments:'<br>Apply to skin: Clotrimazole, Miconazole, Ketoconazole <br>Medicines to take: <br>\t-Terbinafine, Fluconazole <br>\t-Antifungal products should be used as well <br>Do visit a dermatologist for an expert opinion'  
             },
             Urticaria_Hives: {
                 name:'Urticaria Hives',
-                symptoms:'\n-Itchy red bumps on skin \n-Burning or stinging sensation \n-Warm skin', 
-                causes:'\n-Allergic reaction to foods, medications or other substances n\-Temperature changes \n-Sunlight exposure', 
-                treatments:'\nApply to skin: Calamine \nMedicines to take: Antihistamines like Cetirizine, Diphenhydramine' 
+                symptoms:'<br>-Itchy red bumps on skin <br>-Burning or stinging sensation <br>-Warm skin', 
+                causes:'<br>-Allergic reaction to foods, medications or other substances n\-Temperature changes <br>-Sunlight exposure', 
+                treatments:'<br>Apply to skin: Calamine <br>Medicines to take: Antihistamines like Cetirizine, Diphenhydramine' 
             },
             Vascular_Tumors: {
                 name:'Vascular Tumors',
-                symptoms:'\n-Swelling or lumps in affected area \n-Redness or discolouration in affected area \n-Bleeding or ulceration', 
-                causes:'\n-Genetic mutations \n-Abnormal blood vessel development \n-Exposure to certain chemicals or radiation', 
-                treatments:'\nPossible Remedies here depend on the type, size and location of the tumor.\nVisit the nearest dermatologist for an expert opinion'
+                symptoms:'<br>-Swelling or lumps in affected area <br>-Redness or discolouration in affected area <br>-Bleeding or ulceration', 
+                causes:'<br>-Genetic mutations <br>-Abnormal blood vessel development <br>-Exposure to certain chemicals or radiation', 
+                treatments:'<br>Possible Remedies here depend on the type, size and location of the tumor.<br>Visit the nearest dermatologist for an expert opinion'
             },
             Vasculitis: {
                 name:'Vasculitis',
-                symptoms:'\n-Fever and fatigue \n-Weight loss \n-Rashes \n-Vision change \n-Abdominal pain', 
-                causes:'\nProbable cause is abnormal immune system response	', 
-                treatments:'\nMedicines to take: \n-Colchicine, Corticosteroids like Prednisone, Hydrocortisone \n-Immunosuppressants like Azathioprine, Cyclophosphamide \n-Biologic agents like rituximab, tocilizumab' 
+                symptoms:'<br>-Fever and fatigue <br>-Weight loss <br>-Rashes <br>-Vision change <br>-Abdominal pain', 
+                causes:'<br>Probable cause is abnormal immune system response	', 
+                treatments:'<br>Medicines to take: <br>-Colchicine, Corticosteroids like Prednisone, Hydrocortisone <br>-Immunosuppressants like Azathioprine, Cyclophosphamide <br>-Biologic agents like rituximab, tocilizumab' 
             },
             Warts_Molluscum_and_other_Viral_Infections: {
                 name:'Warts Molluscum or other Viral Infections',
-                symptoms:'\n-Small, fleshy, grainy bumps \n-Skin becomes rough to touch \n-Black dots on skin', 
-                causes:'\n-Infection with human papilloma virus(HPV) \n-Contact spreading', 
-                treatments:'\nApply to skin: Salicyclic acid, Cantharidin, Imiquimod' 
+                symptoms:'<br>-Small, fleshy, grainy bumps <br>-Skin becomes rough to touch <br>-Black dots on skin', 
+                causes:'<br>-Infection with human papilloma virus(HPV) <br>-Contact spreading', 
+                treatments:'<br>Apply to skin: Salicyclic acid, Cantharidin, Imiquimod' 
             }
-
 };
 
 function lookupDiseaseInfo(diseaseName) {
@@ -204,13 +200,11 @@ function lookupDiseaseInfo(diseaseName) {
     if (diseaseName in diseases) {
         const disease = diseases[diseaseName];
         // return the symptoms, causes, and treatments as an array
-        nameDiv.textContent = 'Name: ' + disease.name;
+        nameDiv.innerHTML = 'Name: ' + disease.name;
         symptomsDiv.innerHTML = 'Symptoms: ' + disease.symptoms;
-        causesDiv.textContent = 'Causes: ' + disease.causes;
-        treatmentsDiv.textContent = 'Treatments: ' + disease.treatments;
+        causesDiv.innerHTML = 'Causes: ' + disease.causes;
+        treatmentsDiv.innerHTML = 'Treatments: ' + disease.treatments;
     }
 }
-
     </script>
-
 </body>
