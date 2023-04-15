@@ -1,0 +1,74 @@
+Disease,Output,Remedies,
+Acne_and_Rosacea,You possibly have Rosacea,"Possible Remedies are
+Apply to skin: Azelaic acid, Metronidazole
+Medicines to take: Doxycycline, Minocycline, Erythromycin",
+Actinic_Keratosis_Basal_Cell_Carcinoma_and_other_Malignant_Lesions,You possibly have Actinic Keratosis,"Possible Remedies are 
+Apply to skin: 5-fluorouracil(5-FU) cream, Imiquimod",
+Atopic_Dermatitis,You possibly have Atopic Dermatitis,"Possible Remedies are
+Moisturizing skin regularly 
+Apply to skin: Corticosteroids like Prednisone, Hydrocortisone
+Medicines to take: Antihistamines like Cetirizine, Diphenhydramine",
+Bullous_Disease,You possibly have Bullous Disease,"Possible Remedies are 
+Apply to skin: Corticosteroids like Prednisone, Hydrocortisone
+Medicines to take: Immunosuppressants like Azathioprine, Methotrexate",
+Cellulitis_Impetigo_and_other_Bacterial_Infections,You possibly have Cellulitis Impetigo,"Possible Remedies are 
+Apply to skin: Mupriocin, Retapamulin
+Medicines to take: Usually penicillin
+Since these are antibiotics, it is best adviced to go to a healthcare professional",
+Eczema,You possibly have Eczema,"Possible Remedies are 
+Apply to skin: eczema friendly moisturisers, petroleum jelly, relief creams
+Medicines to take: ",
+Exanthems_and_Drug_Eruptions,You possibly have Exanthematous Drug Eruptions,"Possible Remedies are 
+Discontinue using the drug causing the eruptions
+Apply to skin: Cold Compress, Moisturizers, Corticosteroids like Prednisone, Hydrocortisone
+Medicines to take: Ibuprofen, Paracetamol",
+Hair_Loss_Alopecia_and_other_Hair_Diseases,You possibly have Hair Loss Alopecia,"Possible Remedies are 
+Apply to skin: Minoxidil(scalp), Corticosteroids like Prednisone, Hydrocortisone
+Medicines to take, only for males: Finasteride",
+Herpes_HPV_and_other_STDs,You possibly have Herpes,"Possible Remedies are
+Apply to skin: Antiviral creams or ointments
+Medicines to take: Acyclovir, Famciclovir, Valacyclovir",
+Light_Diseases_and_Disorders_of_Pigmentation,You possibly have a Pigmentation Disorder,"Possible Remedies are 
+Apply to skin: Corticosteroids, Hydroquinone, Retinoids
+Chemical peels can be used to exfoliate the top layer and reduce pigmentation",
+Lupus_and_other_Connective_Tissue_diseases,You possibly have Lupus,"Possible Remedies are
+Apply to skin: Tacrolimus ointment
+Medicine to take:
+-Anti-inflammatory drugs like Aspirin, Ibuprofen
+-Corticosteroids like Prednisone, Hydrocortisone
+-Immunosuppressants like Azathioprine, Cyclophosphamide
+-Biologics",
+Melanoma_Skin_Cancer_Nevi_and_Moles,You possibly have Melanoma,"Potentially skin cancer, kindly go to the nearest dermatologist as soon as possible",
+Nail_Fungus_and_other_Nail_Disease,You possibly have Nail Fungus,"Possible Remedies are 
+Apply to skin: Ciclopirox, Amorolfine
+Medicines to take: Itraconazole, Terbinafine",-
+Poison_Ivy_and_other_Contact_Dermatitis,You possibly have Contact Dermatitis,"Possible Remedies are 
+Apply to skin: Cold Compresses, Calamine
+Medicines to take: Antihistamines like Cetirizine, Diphenhydramine",
+Psoriasis_Lichen_Planus_and_related_diseases,You possibly have Psoriasis,"Possible Remedies are
+Apply to skin: Corticosteroids like Prednisone, Hydrocortisone, Retinoids like Tretinoin, Tazarotene
+Medicines to take: Cyclosporine",-
+Scabies_Lyme_Disease_and_other_Infestations_and_Bites,You possibly have Scabies or Lyme Disease,"Possible Remedies are
+If Scabies
+Apply to skin: Permethrin cream
+Medicines to take: Ivermectin
+If Lyme Disease
+Medicines to take: Doxycycline, Amoxicillin",
+Seborrheic_Keratoses_and_other_Benign_Tumors,You possibly have Seborrheic Keratoses,"It is usually harmless and does not require treatment, but contact dermatologist if causing troubles",
+Systemic_Disease,You possibly have a Systemic Disease,"Variety of Diseases, go to the nearest dermatologist to find out which one it actually is",-
+Tinea_Ringworm_Candidiasis_and_other_Fungal_Infections,You possibly have a Fungal Infection,"Possible Remedies are
+Apply to skin: Clotrimazole, Miconazole, Ketoconazole
+Medicines to take: Terbinafine, Fluconazole
+Antifungal products should be used as well",
+Urticaria_Hives,You possibly have Hives,"Possible Remedies are
+Apply to skin: Calamine
+Medicines to take: Antihistamines like Cetirizine, Diphenhydramine",
+Vascular_Tumors,You possibly have a Vascular Tumor,"Possible Remedies here depend on the type, size, location and symptoms
+Visit the nearest dermatologist to figure out the specific treatment you need",-
+Vasculitis,You possibly have Vasculitis,"Possible Remedies are
+Medicines to take: 
+-Colchicine, Corticosteroids like Prednisone, Hydrocortisone
+-Immunosuppressants like Azathioprine, Cyclophosphamide
+-Biologic agents like rituximab, tocilizumab",
+Warts_Molluscum_and_other_Viral_Infections,You possibly have Warts,"Possible Remedies are
+Apply to skin: Salicyclic acid, Cantharidin, Imiquimod",
