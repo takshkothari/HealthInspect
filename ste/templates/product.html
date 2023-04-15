@@ -44,10 +44,68 @@
                         <div class="col-lg-11 col-xl-9 col-xxl-8">
                             <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
                             <div class="card shadow border-0 rounded-4 mb-5">
-                                <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Image</button>
+                                <button class="btn btn-success btn-lg px-5 py-3 fs-6 fw-bolder" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Image</button>
                                 <form action="/results.html" method="post" enctype="multipart/form-data">
                                 <div class="file-upload-placeholder">
                                     <input class="file-upload-input" type='file' name="fileipt" onchange="readURL(this);" accept="image/*" />
+                                    <script>
+const compressImage = async (file, { quality = 1, type = file.type }) => {
+        // Get as image data
+        const imageBitmap = await createImageBitmap(file);
+
+        // Draw to canvas
+        const canvas = document.createElement('canvas');
+        canvas.width = imageBitmap.width;
+        canvas.height = imageBitmap.height;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(imageBitmap, 0, 0);
+
+        // Turn into Blob
+        const blob = await new Promise((resolve) =>
+            canvas.toBlob(resolve, type, quality)
+        );
+
+        // Turn Blob into File
+        return new File([blob], file.name, {
+            type: blob.type,
+        });
+    };
+
+    // Get the selected file from the file input
+    const input = document.querySelector('.file-upload-placeholder');
+    input.addEventListener('change', async (e) => {
+        // Get the files
+        const { files } = e.target;
+
+        // No files selected
+        if (!files.length) return;
+
+        // We'll store the files in this data transfer object
+        const dataTransfer = new DataTransfer();
+
+        // For every file in the files list
+        for (const file of files) {
+            // We don't have to compress files that aren't images
+            if (!file.type.startsWith('image')) {
+                // Ignore this file, but do add it to our result
+                dataTransfer.items.add(file);
+                continue;
+            }
+
+            // We compress the file by 50%
+            const compressedFile = await compressImage(file, {
+                quality: 0.5,
+                type: 'image/jpeg',
+            });
+
+            // Save back the compressed file instead of the original file
+            dataTransfer.items.add(compressedFile);
+        }
+
+        // Set value of the file input to our new files list
+        e.target.files = dataTransfer.files;
+    });                                     
+                                    </script>
                                     <div class="drag-text">
                                         <h3>or, drag and drop a file</h3>
                                     </div>
@@ -55,10 +113,12 @@
                                 <div class="file-upload-preview">
                                     <img class="file-upload-image" src="#" alt="your image" />
                                     <div class="file-upload-remove">
-                                        <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+                                        <button type="button" onclick="removeUpload()" class="btn btn-danger btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder">Remove <span class="image-title">Uploaded Image</span></button>
                                     </div>
                                     <div class="file-upload-submit">
-                                        <input type="submit" id="submit-btn" class="submit-image" value="submit">Submit <span class="image-title">Uploaded Image</span></button>
+                                        <input type="submit" id="submit-btn" class="btn btn-light text-capitalize btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" value="submit"></button>
+                                        <ul> </ul>
+                                        <ul> </ul>
                                     </div>
                                 </div>
                             </form>
