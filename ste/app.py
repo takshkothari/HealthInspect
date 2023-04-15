@@ -72,8 +72,20 @@ def predict_image_classification_sample(
     predictions = response.predictions
     #for prediction in predictions:
         #print(" prediction:", dict(prediction))
-    pred=dict(predictions[0]);
-    return render_template('results.html',value=pred)
+    pred=dict(predictions[0])
+    # create a list of dictionaries
+    pred_list = []
+    for i in range(len(pred['displayNames'])):
+        pred_list.append({
+            'displayName': pred['displayNames'][i],
+            'confidence': pred['confidences'][i]
+        })
+
+    # sort the list of dictionaries by confidence in descending order
+    sorted_pred = sorted(pred_list, key=lambda x: x['confidence'], reverse=True)
+    d=sorted_pred[0]['displayName']
+    c=sorted_pred[0]['confidence']
+    return render_template('results.html',disease=d,confidence=c)
 print("starting..")
 
 if __name__=='__main__':
