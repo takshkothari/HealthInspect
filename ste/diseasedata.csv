@@ -1,5 +1,5 @@
 Disease,Output,Causes,Symptoms,Remedies
-Acne_and_Rosacea,You possibly have Rosacea,"No direct cause has been found, but research has pointed towards the most probable cause being that it is hereditary. A few triggers which make it worse are:
+Acne_and_Rosacea,You possibly have Acne/Rosacea,"No direct cause has been found, but research has pointed towards the most probable cause being that it is hereditary. A few triggers which make it worse are:
 -Sunlight
 -Stress
 -Hot or Spicy food or drinks
@@ -72,7 +72,7 @@ Hair_Loss_Alopecia_and_other_Hair_Diseases,You possibly have Alopecia,"Causes ar
 -Change in nail appearance","Possible Remedies are 
 Apply to skin: Minoxidil(scalp), Corticosteroids like Prednisone, Hydrocortisone
 Medicines to take, only for males: Finasteride"
-Herpes_HPV_and_other_STDs,You possibly have Herpes,"Causes are:
+Herpes_HPV_and_other_STDs,You possibly have an STD,"Causes are:
 -Sexual contact with afflicted individual
 -Stress, illness or fever can trigger it","Symptoms are:
 -Small blisters
@@ -131,7 +131,7 @@ Psoriasis_Lichen_Planus_and_related_diseases,You possibly have Psoriasis,"Causes
 -Swollen and stiff joints","Possible Remedies are
 Apply to skin: Corticosteroids like Prednisone, Hydrocortisone, Retinoids like Tretinoin, Tazarotene
 Medicines to take: Cyclosporine"
-Scabies_Lyme_Disease_and_other_Infestations_and_Bites,You possibly have Scabies or Lyme Disease,"Causes are:
+Scabies_Lyme_Disease_and_other_Infestations_and_Bites,You possibly have Scabies/Lyme Disease,"Causes are:
 -Contact with afflicted individual","Symptoms are:
 -Itching and rashes","Possible Remedies are
 If Scabies
@@ -145,7 +145,7 @@ Seborrheic_Keratoses_and_other_Benign_Tumors,You possibly have Seborrheic Kerato
 -Hornmonal Changes","Symptoms are:
 -Wart-like growths
 -May cause itching and irritation","It is usually harmless and does not require treatment, but contact dermatologist if causing troubles"
-Systemic_Disease,You possibly have a Systemic Disease,Causes vary based on disease,Symptoms vary from disease to disease,"Variety of Diseases, go to the nearest dermatologist to find out which one it actually is"
+Systemic_Disease,You possibly have a Systemic Disease,Causes vary based on disease,Symptoms vary from disease to disease,"Variety of Diseases, go to the nearest dermatologist for an expert opinion"
 Tinea_Ringworm_Candidiasis_and_other_Fungal_Infections,You possibly have a Fungal Infection,"Causes are:
 -Weakened immune system
 -Exposure to excessive fungi","Symptoms are:
@@ -153,7 +153,8 @@ Tinea_Ringworm_Candidiasis_and_other_Fungal_Infections,You possibly have a Funga
 -Discolouration","Possible Remedies are
 Apply to skin: Clotrimazole, Miconazole, Ketoconazole
 Medicines to take: Terbinafine, Fluconazole
-Antifungal products should be used as well"
+Antifungal products should be used as well
+Do visit a dermatologist for an expert opinion"
 Urticaria_Hives,You possibly have Hives,"Causes are:
 -Allergic reaction to foods, medications or other substances
 -Temperature changes
@@ -170,7 +171,7 @@ Vascular_Tumors,You possibly have a Vascular Tumor,"Causes are:
 -Swelling or lumps in affected area
 -Redness or discolouration in affected area
 -Bleeding or ulceration","Possible Remedies here depend on the type, size, location and symptoms
-Visit the nearest dermatologist to figure out the specific treatment you need"
+Visit the nearest dermatologist for an expert opinion"
 Vasculitis,You possibly have Vasculitis,Probable cause is abnormal immune system response,"Symptoms are:
 -Fever and fatigue
 -Weight loss
