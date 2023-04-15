@@ -67,7 +67,7 @@
         const diseases = {
             Acne_and_Rosacea: {
                 name:'Acne or Rosacea',
-                symptoms:'\n-Facial redness \n-Flushing \n-Burning sensation \n-Dryness and irritation in the eye', 
+                symptoms:'<br>-Facial redness <br>-Flushing \n-Burning sensation \n-Dryness and irritation in the eye', 
                 causes:'No direct cause has been found, but research has pointed towards the most probable cause being that it is hereditary. A few triggers which make it worse are:\n \
                 -Sunlight \n-Stress \n-Hot or Spicy food or drinks \n-Alcohol and Caffeine\n', 
                 treatments:'\nApply to skin: Azelaic acid, Metronidazole \nMedicines to take: Doxycycline, Minocycline, Erythromycin' 
@@ -205,12 +205,11 @@ function lookupDiseaseInfo(diseaseName) {
         const disease = diseases[diseaseName];
         // return the symptoms, causes, and treatments as an array
         nameDiv.textContent = 'Name: ' + disease.name;
-        symptomsDiv.textContent = 'Symptoms: ' + disease.symptoms;
+        symptomsDiv.innerHTML = 'Symptoms: ' + disease.symptoms;
         causesDiv.textContent = 'Causes: ' + disease.causes;
         treatmentsDiv.textContent = 'Treatments: ' + disease.treatments;
     }
-
-  }
+}
 
     </script>
 
