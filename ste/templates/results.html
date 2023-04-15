@@ -40,9 +40,177 @@
             <div class="main-2">
             <section class="py-5">
                 <div class="container px-5">
-                    <h1>you have: {{value}}</h1>
+                    <!--USE THESE DIVS FOR RESULTS-->
+                    <h1 id="name">test</h1>
+                    <h1 id="'confidence">Confidence : {{confidence}}</h1>
+                    <h1 id="symptoms">test</h1>
+                    <h1 id="causes">test</h1>
+                    <h1 id="treatments">test</h1>
+
+                    <!--dont use this div-->
+                    <h1 style="display:none;" id="disease">{{disease}}</h1>
+                    <script>
+                    
+                        setInterval(function(){
+                            var dname=document.getElementById("disease").textContent;
+                            setTimeout(function(){console.log(1)},100);
+                            setInterval(lookupDiseaseInfo(dname), 1);
+                        })
+                    </script>
+                    
+
                 </div>
             </section>
         </div>
     </main>
+    <script>
+        const diseases = {
+            Acne_and_Rosacea: {
+                name:'Acne or Rosacea',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Actinic_Keratosis_Basal_Cell_Carcinoma_and_other_Malignant_Lesions: {
+                name:'Actinic Keratosis Basal Cell Carcinoma or other Malignant Lesions',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Atopic_Dermatitis: {
+                name:'Atopic Dermatitis',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Bullous_Disease: {
+                name:'Bullous Disease',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Eczema: {
+                name:'Eczema',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Hair_Loss_Alopecia_and_other_Hair_Diseases: {
+                name:'Hair Loss Alopecia or other Hair Diseases',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Herpes_HPV_and_other_STDs: {
+                name:'Herpes HPV or other STDs',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Light_Diseases_and_Disorders_of_Pigmentation: {
+                name:'Light Diseases or Disorders of Pigmentation',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Lupus_and_other_Connective_Tissue_diseases: {
+                name:'Lupus or other Connective Tissue diseases',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Melanoma_Skin_Cancer_Nevi_and_Moles: {
+                name:'Melanoma Skin Cancer Nevi or Moles',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Nail_Fungus_and_other_Nail_Disease: {
+                name:'Nail Fungus or other Nail Disease',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Poison_Ivy_and_other_Contact_Dermatitis: {
+                name:'Poison Ivy or other Contact Dermatitis',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Psoriasis_Lichen_Planus_and_related_diseases: {
+                name:'Psoriasis Lichen Planus or related diseases',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Scabies_Lyme_Disease_and_other_Infestations_and_Bites: {
+                name:'Scabies Lyme Disease or other Infestations or Bites',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Seborrheic_Keratoses_and_other_Benign_Tumors: {
+                name:'Seborrheic Keratoses or other Benign Tumors',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Systemic_Disease: {
+                name:'Systemic Disease',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Tinea_Ringworm_Candidiasis_and_other_Fungal_Infections: {
+                name:'Tinea Ringworm Coridiasis or other Fungal Infections',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Urticaria_Hives: {
+                name:'Urticaria Hives',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Vascular_Tumors: {
+                name:'Vascular Tumors',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Vasculitis: {
+                name:'Vasculitis',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            },
+            Warts_Molluscum_and_other_Viral_Infections: {
+                name:'Warts Molluscum or other Viral Infections',
+                symptoms:'', 
+                causes:'', 
+                treatments:'' 
+            }
+
+};
+
+function lookupDiseaseInfo(diseaseName) {
+    const nameDiv = document.getElementById('name');
+    const symptomsDiv = document.getElementById('symptoms');
+    const causesDiv = document.getElementById('causes');
+    const treatmentsDiv = document.getElementById('treatments');
+  // check if the disease name exists in the diseases object
+    if (diseaseName in diseases) {
+        const disease = diseases[diseaseName];
+        // return the symptoms, causes, and treatments as an array
+        nameDiv.textContent = 'Name: ' + disease.name;
+        symptomsDiv.textContent = 'Symptoms: ' + disease.symptoms;
+        causesDiv.textContent = 'Causes: ' + disease.causes;
+        treatmentsDiv.textContent = 'Treatments: ' + disease.treatments;
+    }
+
+  }
+
+    </script>
+
 </body>
