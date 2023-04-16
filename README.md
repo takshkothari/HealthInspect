@@ -30,7 +30,7 @@ Urticaria Hives<br>
 Vascular Tumors<br>
 Vasculitis<br>
 Warts Molluscum or other Viral Infections<br>
-#### Note: the model currently does not predict 'none of these'. The output will always be one of these 21 diseases.<br>
+#### Note: the model currently does not predict 'none of these' as of now due to lack of data.<br>
 
 The web application is built using Flask, a Python web framework. The application is deployed on a Compute Engine instance in Google Cloud that runs on AMD EPYC Milan platform with a T2D type machine. The web app is deployed using mod Apache2 with WSGI used to connect the Flask app to the external IP of the VM. The site is accessible via the external IP.<br><br>
 The front-end of the application is built using JavaScript, HTML, CSS, and Bootstrap for designing. The website also handles compression on large images to ensure quick and smooth processing.
