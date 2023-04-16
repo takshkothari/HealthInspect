@@ -8,7 +8,29 @@ The objective of HealthInspect is to provide users with a user-friendly, accessi
 # Methodology and Results
 HealthInspect is built on a Google Cloud Platform, which is a powerful, scalable platform for building web applications. The application uses a Vertex AI Model deployed on an endpoint, trained on the dermnet dataset stored in a Cloud Storage Bucket.<br><br>
 Classifying skin diseases is a complicated task in medicine due to the similarities between different diseases.<br><br>
-Our model identifies 21 different classes of skin diseases with an average accuracy of 77.7%, which is one of the highest number of classes a model has been accurately trained on according to various research papers, providing a large coverage of common types.
+Our model identifies 21 different classes of skin diseases with an average accuracy of 77.7%, which is one of the highest number of classes a model has been accurately trained on according to various research papers, providing a large coverage of common types.They are:<br>
+Acne or Rosacea
+Actinic Keratosis Basal Cell Carcinoma or other Malignant Lesions
+Atopic Dermatitis
+Bullous Disease
+Eczema
+Hair Loss Alopecia or other Hair Diseases
+Herpes HPV or other STDs
+Light Diseases or Disorders of Pigmentation
+Lupus or other Connective Tissue diseases
+Melanoma Skin Cancer Nevi or Moles
+Nail Fungus or other Nail Disease
+Poison Ivy or other Contact Dermatitis
+Psoriasis Lichen Planus or related diseases
+Scabies Lyme Disease or other Infestations or Bites
+Seborrheic Keratoses or other Benign Tumors
+Systemic Disease
+Tinea Ringworm Coridiasis or other Fungal Infections
+Urticaria Hives
+Vascular Tumors
+Vasculitis
+Warts Molluscum or other Viral Infections
+#### Note: the model currently does not predict 'none of these'. The output will always be one of these 21 diseases.<br>
 
 The web application is built using Flask, a Python web framework. The application is deployed on a Compute Engine instance in Google Cloud that runs on AMD EPYC Milan platform with a T2D type machine. The web app is deployed using mod Apache2 with WSGI used to connect the Flask app to the external IP of the VM. The site is accessible via the external IP.<br><br>
 The front-end of the application is built using JavaScript, HTML, CSS, and Bootstrap for designing. The website also handles compression on large images to ensure quick and smooth processing.
