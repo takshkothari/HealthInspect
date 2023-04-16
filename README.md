@@ -9,27 +9,27 @@ The objective of HealthInspect is to provide users with a user-friendly, accessi
 HealthInspect is built on a Google Cloud Platform, which is a powerful, scalable platform for building web applications. The application uses a Vertex AI Model deployed on an endpoint, trained on the dermnet dataset stored in a Cloud Storage Bucket.<br><br>
 Classifying skin diseases is a complicated task in medicine due to the similarities between different diseases.<br><br>
 Our model identifies 21 different classes of skin diseases with an average accuracy of 77.7%, which is one of the highest number of classes a model has been accurately trained on according to various research papers, providing a large coverage of common types.They are:<br>
-Acne or Rosacea
-Actinic Keratosis Basal Cell Carcinoma or other Malignant Lesions
-Atopic Dermatitis
-Bullous Disease
-Eczema
-Hair Loss Alopecia or other Hair Diseases
-Herpes HPV or other STDs
-Light Diseases or Disorders of Pigmentation
-Lupus or other Connective Tissue diseases
-Melanoma Skin Cancer Nevi or Moles
-Nail Fungus or other Nail Disease
-Poison Ivy or other Contact Dermatitis
-Psoriasis Lichen Planus or related diseases
-Scabies Lyme Disease or other Infestations or Bites
-Seborrheic Keratoses or other Benign Tumors
-Systemic Disease
-Tinea Ringworm Coridiasis or other Fungal Infections
-Urticaria Hives
-Vascular Tumors
-Vasculitis
-Warts Molluscum or other Viral Infections
+Acne or Rosacea<br>
+Actinic Keratosis Basal Cell Carcinoma or other Malignant Lesions<br>
+Atopic Dermatitis<br>
+Bullous Disease<br>
+Eczema<br>
+Hair Loss Alopecia or other Hair Diseases<br>
+Herpes HPV or other STDs<br>
+Light Diseases or Disorders of Pigmentation<br>
+Lupus or other Connective Tissue diseases<br>
+Melanoma Skin Cancer Nevi or Moles<br>
+Nail Fungus or other Nail Disease<br>
+Poison Ivy or other Contact Dermatitis<br>
+Psoriasis Lichen Planus or related diseases<br>
+Scabies Lyme Disease or other Infestations or Bites<br>
+Seborrheic Keratoses or other Benign Tumors<br>
+Systemic Disease<br>
+Tinea Ringworm Coridiasis or other Fungal Infections<br>
+Urticaria Hives<br>
+Vascular Tumors<br>
+Vasculitis<br>
+Warts Molluscum or other Viral Infections<br>
 #### Note: the model currently does not predict 'none of these'. The output will always be one of these 21 diseases.<br>
 
 The web application is built using Flask, a Python web framework. The application is deployed on a Compute Engine instance in Google Cloud that runs on AMD EPYC Milan platform with a T2D type machine. The web app is deployed using mod Apache2 with WSGI used to connect the Flask app to the external IP of the VM. The site is accessible via the external IP.<br><br>
