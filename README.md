@@ -8,7 +8,7 @@ The objective of HealthInspect is to provide users with a user-friendly, accessi
 # Methodology and Results
 HealthInspect is built on a Google Cloud Platform, which is a powerful, scalable platform for building web applications. The application uses a Vertex AI Model deployed on an endpoint, trained on the dermnet dataset stored in a Cloud Storage Bucket.<br><br>
 Classifying skin diseases is a complicated task in medicine due to the similarities between different diseases.<br><br>
-Our model identifies 21 different classes of skin diseases with an average accuracy of 77.7%, which is one of the highest number of classes a model has been accurately trained on according to various research papers, providing a large coverage of common types.They are:<br>
+Our model identifies 21 different classes of skin diseases with an average accuracy of 77.7%, which is one of the highest number of classes a model has been accurately trained on according to various research papers, providing a large coverage of common types.They are:<br><br>
 Acne or Rosacea<br>
 Actinic Keratosis Basal Cell Carcinoma or other Malignant Lesions<br>
 Atopic Dermatitis<br>
