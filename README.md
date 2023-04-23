@@ -1,4 +1,4 @@
-#Important!!
+# Important!!
 The new address of the website is: [HealthInspect](http://34.131.250.74/).<br>
 # HealthInspect
 HealthInspect is a web-based application that allows users to upload images of diseases and receive accurate, reliable information about their condition in just seconds. The uploaded image is processed through a powerful AI model, which uses deep learning algorithms and advanced image recognition techniques to analyze the image and identify any signs of disease.
