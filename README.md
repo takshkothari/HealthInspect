@@ -1,4 +1,5 @@
-
+#Important!!
+The new address of the website is: [HealthInspect](http://34.131.250.74/).<br>
 # HealthInspect
 HealthInspect is a web-based application that allows users to upload images of diseases and receive accurate, reliable information about their condition in just seconds. The uploaded image is processed through a powerful AI model, which uses deep learning algorithms and advanced image recognition techniques to analyze the image and identify any signs of disease.
 
@@ -36,7 +37,7 @@ The web application is built using Flask, a Python web framework. The applicatio
 The front-end of the application is built using JavaScript, HTML, CSS, and Bootstrap for designing. The website also handles compression on large images to ensure quick and smooth processing.
 
 # Instructions
-To use HealthInspect, simply go to the following website: [HealthInspect](http://34.131.86.88/).<br>
+To use HealthInspect, simply go to the following website: [HealthInspect](http://34.131.250.74/).<br>
 On the homepage, select product, and upload an image of the affected area on our super lightweight and user-friendly platform, and thats it! The uploaded image is then processed through our powerful Vertex AI model, which is deployed on the Google Cloud platform. Once the diagnosis is displayed, our system provides a description of the symptoms, causes, and possible home remedies for the identified disease.<br><br>
 
 For more information on how to use HealthInspect, please watch: [demovideo](https://drive.google.com/file/d/1Cr7YgfLb548d1vDmk5BNjzpCjQo6k1ls/view?usp=share_link/)
